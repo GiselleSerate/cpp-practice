@@ -27,7 +27,8 @@ void addNumbers(int *firstPtr, int *secondPtr) {
 }
 
 // Takes two numbers and prints them out.
+// Kind of a dumb function, but I guess this is pointer practice. 
 void printNumbers(int firstNum, int secondNum) {
-	cout << "We can now print the numbers you gave to a different function.\n";
+	cout << "We can now print the numbers even though you gave them to a different function.\n";
 	cout << firstNum << " " << secondNum << "\n";
 }
